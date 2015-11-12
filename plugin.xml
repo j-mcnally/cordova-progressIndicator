@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
-        id="org.pbernasconi.progressindicator" 
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="org.pbernasconi.progressindicator"
         version="1.1.0">
 
     <engines>
@@ -26,8 +26,6 @@
                 <param name="ios-package" value="ProgressIndicator"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/MBProgressHUD.h"/>
-        <source-file src="src/ios/MBProgressHUD.m"/>
         <header-file src="src/ios/ProgressIndicator.h"/>
         <source-file src="src/ios/ProgressIndicator.m"/>
         <resource-file src="src/ios/ProgressIndicator.bundle" />
